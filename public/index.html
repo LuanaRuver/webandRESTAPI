@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">PraRoz</h1>
+        <ul class="navegação">
+            <li>Home</li>
+            <li>About</li>
+            <li>Service</li>
+            <li>Design</li>
+            <li>Contact</li>
+        </ul>
+        <div class="search">
+            <input class="type_search" value="Type to Search"></input>
+            <button class="search_button">Search</button>
+        </div>
+    </header>
+    <main>
+        <div class="left">
+            <h1 class="tittle">Web Design &<br><span
+                    style="color:orangered; font-size:150%;">Development</span><br>Course</h1>
+            <h2 class="text">Web Design is a specialisation of the design strem. They aiso use HTML, CSS, WYSIWYG
+                editing software,
+                make up validators etc., to create design elements.</h2>
+            <button class="join_us">JOIN US</button>
+        </div>
+        <div class="right">
+            <div id="logar">
+                <h1 class="login_here">Login Here</h1>
+                <form class="form" method="post" autocomplete="on">
+                    <input id="email" type="text" class="email_senha" placeholder="Enter Email Here"
+                        autocomplete="email" required>
+                    <input type="password" name="senha" id="senha" class="email_senha" type="text"
+                        placeholder="Enter Password Here" minlength="8" maxlength="16" required>
+                    <button type="submit" class="login">Login</button>
+                </form>
+                <h1 id="sign_up">Don't have an account?<br><a id="Sing" href="#"
+                        style="color: orangered; text-decoration: none;">Sign in</a> here</h1>
+                <div class="network">
+                    <h1 class="log_in_with">Log in with</h1>
+                    <div class="net_img">
+                        <img class="insta" src="./insta.png" alt="instagram" href="#">
+                        <img class="x" src="./twitter.png" alt="x" href="#">
+                    </div>
+                </div>
+            </div>
+            <div id="criar_usuario">
+                <h1 class="login_here">Sing Up</h1>
+                <form class="form" method="post" autocomplete="on">
+                    <input id="name" type="text" class="email_senha" placeholder="Enter Name Here" autocomplete="name" required>
+                    <input id="email" type="text" class="email_senha" placeholder="Enter Email Here"
+                        autocomplete="email" required>
+                    <input type="password" name="senha" id="senha" class="email_senha" type="text"
+                        placeholder="Enter Password Here" minlength="8" maxlength="16" required>
+                    <button type="submit" class="login">Sing up</button>
+                </form>
+                <div class="network">
+                    <h1 class="log_in_with">Log in with</h1>
+                    <div class="net_img">
+                        <img class="insta" src="./insta.png" alt="instagram" href="#">
+                        <img class="x" src="./twitter.png" alt="x" href="#">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

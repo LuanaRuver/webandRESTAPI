@@ -1,0 +1,203 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+html{
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    margin:20px 60px 0 60px;
+    background-image:
+    linear-gradient(
+        rgba(12, 0, 66, 0.39),rgba(12, 0, 66, 0.377)
+      ),
+        url(./photo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: orangered;
+}
+
+ul{
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+    align-items: center; 
+    list-style: none;
+    font-weight: 600;
+}
+
+.search{
+    display: flex;
+    border: solid 2px orangered;
+    width: 300px;
+    justify-content: space-between;
+    border-radius: 5px;
+    align-items: center;
+    padding-left: 8px;
+}
+
+.type_search{
+    text-decoration: none;
+    border: none;
+    background: none;
+    color: white;
+    height: 37px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.search_button{
+    width: 115px;
+    height: 37px;
+    border: none;
+    background-color: orangered;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-right: -1px;
+    padding-right: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+.left{
+    width: 700px;
+}
+
+.tittle{
+    font-size: 250%;
+}
+
+.text{
+    font-size: 100%;
+    font-weight: 400;
+    width: 600px;
+
+}
+
+.join_us{
+    color: black;
+    height: 35px;
+    width: 150px;
+    border-radius: 8px;
+    border: none;
+    font-size: 17px;
+    background-color: orangered;
+    margin-top: 10px;
+}
+
+.right{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.377);
+    width: 300px;
+    height: 400px;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#logar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+#criar_usuario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.login_here{
+    color: orangered;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    text-align: center;
+    align-content: center;
+}
+
+.form{
+    display:flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.email_senha{
+    border: solid 2px orangered;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background: none;
+    color: white;
+    width: 260px;
+    text-align: start;
+    
+}
+
+.login{
+    color: black;
+    height: 40px;
+    width: 260px;
+    border-radius: 8px;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: orangered;
+}
+
+#sign_up{
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+#criar_usuario {
+    display: none;
+}
+
+.log_in_with{
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.net_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.insta{
+    width: 30px;
+}
+
+.x{ 
+    width: 50px;
+}
